@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to dashboard</title>
+    <link rel="stylesheet" href="dashboard.style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comme:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <img src="./logo.png" alt="" width="20%" height="20%">
+            <nav>
+                <ul id='MenuItems'>
+                    <li><button class="homebtn" onclick="document.get">Home</button></li>
+                    <li><button class="contactbtn" onclick="document.get">About Us</button></li>
+                    <li><button class="contactbtn" onclick="document.get">Contact</button></li>
+
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Logout</a></button></li>
+                </ul>
+            </nav>
+        </div>
+    <h1>Please select your prefered location:</h1>
+<br>
+<br>
+<br>
+<p>    
+    <label for="parentDropdown">Select a city:</label>
+    <select id="parentDropdown">
+        <option value="">Select a City</option>
+        <option value="Pokhara">Pokhara</option>
+        <option value="Tanahun">Tanahun</option>
+    </select>
+&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="childDropdown">Select a Town:</label>
+    <select id="childDropdown">
+        <option value="">Select a Town</option>
+        <option value="Lekhnath">Lekhnath</option>
+        <option value="Chauthe">Chauthe</option>
+        <option value="Amarsingh">AmarSingh</option>
+        <option value="Khaireni">Khaireni</option>
+    </select>
+&nbsp;&nbsp;&nbsp;&nbsp;    
+    <label for="grandchildDropdown">Select a Tole:</label>
+    <select id="grandchildDropdown">
+        <option value="">Select a Tole</option>
+        <option value="Tc">Talchowk</option>
+        <option value="Kc">KalikaChowk</option>
+        <option value="As">AirportSide</option>
+        <option value="Hs">HospitalChowk</option>
+        <option value="Bhurunge">Bhurunge</option>
+    </select>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="proceedButton" href="#">Proceed</a>
+</body>
+<script src="dashboard.js"></script>
+</html>
