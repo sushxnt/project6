@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="69px" viewBox="0 0 170 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons/chasing-payment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.8%" y="-17.4%" width="115.9%" height="134.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101098121 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="102" height="69" rx="3"></rect>
+    </defs>
+    <g id="Icons/chasing-payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chasing-payment" filter="url(#filter-1)">
+            <g id="Rectangle-Copy-10-+-Rectangle-Copy-79-+-Rectangle-Copy-9-Mask" transform="translate(68.000000, 0.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask"></g>
+                <rect id="Rectangle-Copy-9" fill="#7CE8AF" mask="url(#mask-3)" x="0" y="0" width="102" height="69" rx="3"></rect>
+                <path d="M21.7752809,0 L99,0 C100.656854,-3.04359188e-16 102,1.34314575 102,3 L102,66 C102,67.6568542 100.656854,69 99,69 L65.6481742,69 L21.7752809,0 Z" id="Rectangle-Copy-10" fill="#24DC89" mask="url(#mask-3)"></path>
+                <rect id="Rectangle-Copy-79" fill="#FFFFFF" mask="url(#mask-3)" x="-10.3146067" y="11.5" width="122.629213" height="13.8"></rect>
+            </g>
+            <rect id="Rectangle-Copy-39" fill="#FFFFFF" x="73" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-46" fill="#FFFFFF" x="98" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-47" fill="#FFFFFF" x="78" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-48" fill="#FFFFFF" x="105" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-56" fill="#FFFFFF" x="85" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-57" fill="#FFFFFF" x="110" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-58" fill="#FFFFFF" x="124" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-59" fill="#FFFFFF" x="130" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-60" fill="#FFFFFF" x="137" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-61" fill="#FFFFFF" x="150" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-62" fill="#FFFFFF" x="156" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-76" fill="#FFFFFF" x="162" y="30" width="3" height="6" rx="1.39655172"></rect>
+            <rect id="Rectangle-Copy-11" fill="#F8E71C" x="140" y="57" width="22" height="5" rx="2"></rect>
+            <path d="M46.4931535,32.8633143 L0,32.8633143" id="Stroke-20-Copy-6" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"></path>
+            <path d="M52.4996239,13.8633143 L29.549812,13.8633143" id="Stroke-20-Copy-7" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"></path>
+            <path d="M52.4996239,52.8633143 L29.549812,52.8633143" id="Stroke-20-Copy-8" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="126px" viewBox="0 0 127 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons/more-bookings</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-20.3%" y="-16.3%" width="135.4%" height="128.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101098121 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Icons/more-bookings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="More-bookings" filter="url(#filter-1)" transform="translate(63.500000, 57.000000) rotate(45.000000) translate(-63.500000, -57.000000) translate(24.000000, 8.000000)">
+            <rect id="Rectangle-Copy-5" fill="#FFE3D0" x="42" y="74.6464466" width="30" height="16" rx="2"></rect>
+            <g id="Group-2">
+                <g id="Group" transform="translate(0.908117, 0.481710)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="5">
+                    <path d="M10.9497475,6.15685425 L10.9497475,17.1568542" id="Stroke-18-Copy" transform="translate(10.949747, 11.656854) rotate(-45.000000) translate(-10.949747, -11.656854) "></path>
+                    <path d="M28.3847763,2 L20.3847763,10" id="Stroke-20-Copy" transform="translate(24.384776, 6.000000) rotate(-45.000000) translate(-24.384776, -6.000000) "></path>
+                    <path d="M6.15685425,37.8198052 L17.1568542,37.8198052" id="Stroke-22-Copy" transform="translate(11.656854, 37.819805) rotate(-45.000000) translate(-11.656854, -37.819805) "></path>
+                    <path d="M2,20.3847763 L10,28.3847763" id="Stroke-24-Copy" transform="translate(6.000000, 24.384776) rotate(-45.000000) translate(-6.000000, -24.384776) "></path>
+                </g>
+                <path d="M35,42 L79,42 L79,63.3198052 C79,75.4700696 69.1502645,85.3198052 57,85.3198052 L57,85.3198052 C44.8497355,85.3198052 35,75.4700696 35,63.3198052 L35,42 Z" id="Rectangle" fill="#FFE3D0"></path>
+                <rect id="Rectangle-Copy" fill="#FFE3D0" x="35" y="6" width="11" height="51" rx="5.5"></rect>
+                <rect id="Rectangle-Copy-2" fill="#FFE3D0" x="46" y="31" width="11" height="26" rx="5.5"></rect>
+                <rect id="Rectangle-Copy-3" fill="#FFE3D0" x="57" y="34" width="11" height="23" rx="5.5"></rect>
+                <rect id="Rectangle-Copy-4" fill="#FFE3D0" x="68" y="37" width="11" height="20" rx="5.5"></rect>
+                <path d="M26.3724681,75.4583694 C26.3724681,75.4583694 35.8518719,59.9135134 22.9075136,50.2226888 C20.5315447,48.4435438 20.2189758,46.2832315 23.0599048,44.6493451 C31.8885868,39.5762153 41.2067005,51.8729577 41.0242759,59.6699595" id="Fill-11-Copy" fill="#FFE3D0" transform="translate(31.026912, 59.458369) rotate(-45.000000) translate(-31.026912, -59.458369) "></path>
+            </g>
+            <rect id="Rectangle" fill="#5295C7" x="39" y="81.6464466" width="36" height="16" rx="2"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar h1{
+    font-size: 40px;
+    color: white;
+	font-family: "Bebas Neue";
+	text-align: center;
+}
+
+.full-page
+{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./BG123.jpg");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+	display: flex;
+    align-items: center;
+	padding: 20px 20px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:rgb(37, 36, 36);
+	color: white;;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+	font-family: "Comme";
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: "Comme";
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+nav ul li button:hover
+{
+    color: wheat;
+}
+nav ul li a:hover
+{
+    color: rgb(31, 16, 196);
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: white;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.logoutbtn {
+	display: flex;
+	border:solid 1px;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: medium;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav p{
+	font-family: "comme",sans-serif;
+}
+
+
+.logo{
+	text-align: center;
+}

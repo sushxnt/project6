@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="105px" viewBox="0 0 151 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons/save-time</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.9%" y="-11.4%" width="115.9%" height="122.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101098121 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Icons/save-time" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Save-Time" filter="url(#filter-1)" transform="translate(0.000000, -6.000000)">
+            <rect id="Rectangle" fill="#CCECFF" x="0" y="4" width="123" height="85" rx="2"></rect>
+            <path d="M6,12 L117,12 L117,81 C117,82.1045695 116.104569,83 115,83 L8,83 C6.8954305,83 6,82.1045695 6,81 L6,12 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <path d="M2,0 L121,0 C122.104569,-2.02906125e-16 123,0.8954305 123,2 L123,12 L0,12 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle" fill="#5295C7"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="8" cy="6" r="2"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="14" cy="6" r="2"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="20" cy="6" r="2"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" x="28" y="4" width="89" height="4" rx="1"></rect>
+            <rect id="Rectangle-Copy-23" fill="#E8E8E8" x="75" y="22" width="37" height="27" rx="2"></rect>
+            <rect id="Rectangle-Copy-127" fill="#E8E8E8" x="14" y="22" width="45" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-129" fill="#4BD870" x="14" y="33" width="45" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-128" fill="#E8E8E8" x="62" y="22" width="7" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-130" fill="#4BD870" x="62" y="33" width="7" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-132" fill="#E8E8E8" x="14" y="44" width="45" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-133" fill="#F48F56" x="14" y="55" width="45" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-135" fill="#E8E8E8" x="14" y="66" width="45" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-131" fill="#E8E8E8" x="62" y="44" width="7" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-134" fill="#F48F56" x="62" y="55" width="7" height="6" rx="1"></rect>
+            <rect id="Rectangle-Copy-136" fill="#E8E8E8" x="62" y="66" width="7" height="6" rx="1"></rect>
+            <g id="Group-4" transform="translate(105.000000, 59.000000)">
+                <circle id="Oval" fill="#5295C7" cx="23" cy="23" r="23"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="23" cy="23" r="16"></circle>
+                <polyline id="Path-3" stroke="#C5C5C5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="23 12 23 24.4754556 28 31"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,279 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	top:0;
+	bottom: 0;
+}
+.full-page
+{
+	height: 100%;
+	width: 100%;
+}
+.navbar
+{
+	display: flex;
+    align-items: center;
+	padding: 20px 20px;
+    /* padding-top: 10px;
+	padding-bottom: 10px; */
+	background-color:rgb(28, 168, 168);
+	color: white;
+	/* position:sticky; */
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
+}
+
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
+}
+nav ul li button:hover
+{
+    color: wheat;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:#b8b8bb;
+	padding:10px;
+    overflow: hidden;
+	border-radius: 25px;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px rgb(140, 122, 122);
+	border-radius: 10px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:5px;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: white;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #060606;
+	outline:none;
+	background: transparent;
+	color: black
+
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: rgb(0, 157, 10);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 20px 5px 0px -3px ;
+	padding: 0;
+}
+
+#login
+{
+	left:50px;
+}
+#login p {
+	margin-bottom: 33px;
+	text-align: left;
+	display: inline-block;
+
+}
+
+#login input
+{
+	color:rgb(0, 0, 0);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:rgb(0, 0, 0);
+	font-size: 15px;
+}
+
+.loginbtn {
+	display: flex;
+	border:solid 2px;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: medium;
+	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+	border-color: white;
+	color: rgb(235, 245, 245);
+	font-weight: bold;
+}
+
+.loginbtn:hover{
+	background-color:white;
+	color: #060606;
+	font-weight: bold;
+}
+
+.logo{
+	text-align: center;
+	margin-left: 3rem;
+
+}
+
+::placeholder{
+	color: black;
+	font-family:"Rajdhani",Arial, Helvetica, sans-serif;
+}
+
+.submit-btn{
+	margin: 10px;
+}
+
+.back-image{
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.carousel{
+	height: 50%;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 4rem;
+}
+
+.center-txt h2{
+	font-family: "Bebas Neue",sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+	font-style: bold;
+	margin:2rem 2rem;
+	color: white;
+}
+
+.center-txt p{
+	font-family: "Comme",Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	margin: 3rem 3rem;
+	letter-spacing: 1px;
+	color: white;
+}
+ .features{
+	margin: auto 5rem;
+	display: flex;
+	justify-content: center;
+	font-family: "Ubuntu";
+	letter-spacing: 1px;
+	font-weight:bolder;
+	font-size:large;
+	flex-direction: row;
+}
+
+.more-bookings{
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	margin-right: 5rem;
+	width: fit-content;
+}
+
+.back-image{
+	display: flex;
+	flex-direction: row;
+	float: left;
+	margin-bottom: 3rem;
+}
+.save-time{
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	margin-right: 5rem;
+
+}
+
+.payments{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	
+}
+
+
+
+
