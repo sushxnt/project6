@@ -1,29 +1,22 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-	top:0;
-	bottom: 0;
+* {
+	box-sizing: border-box;
 }
-.full-page
-{
+
+.full-page{
 	height: 100%;
 	width: 100%;
 }
+
 .navbar
 {
 	display: flex;
     align-items: center;
 	padding: 10px 10px;
-    /* padding-top: 10px; */
-	/* padding-bottom: 10px; */
 	background-color:rgb(28, 168, 168);
 	color: white;
-	/* position:sticky; */
 	top: 0;
-	left: 0;
 	width: 100%;
+	overflow: hidden;
 }
 nav
 {
@@ -56,121 +49,7 @@ nav ul li button:hover
 {
     color: wheat;
 }
-#login-form
-{
-    display: none;
-}
-.form-box
-{
-    width:380px;
-	height:480px;
-	position:relative;
-	margin:2% auto;
-	background:#b8b8bb;
-	padding:10px;
-    overflow: hidden;
-	border-radius: 25px;
-}
-.button-box
-{
-	width:220px;
-	margin:35px auto;
-	position:relative;
-	box-shadow: 0 0 20px 9px rgb(140, 122, 122);
-	border-radius: 10px;
-}
-.toggle-btn
-{
-	padding:10px 30px;
-	cursor:pointer;
-	background:transparent;
-	border:5px;
-	outline: none;
-	position: relative;
-}
-#btn
-{
-	top: 0;
-	left:0;
-	position: absolute;
-	width: 110px;
-	height: 100%;
-	background: white;
-	border-radius: 30px;
-	transition: .5s;
-}
-.input-group-login
-{
-	top: 150px;
-	position:absolute;
-	width:280px;
-	transition:.5s;
-}
-.input-group-register
-{
-    top: 120px;
-	position:absolute;
-	width:280px;
-	transition:.5s;
-}
-.input-field
-{
-	width: 100%;
-	padding:10px 0;
-	margin:5px 0;
-	border-left:0;
-	border-top:0;
-	border-right:0;
-	border-bottom: 1px solid #060606;
-	outline:none;
-	background: transparent;
-	color: black
 
-}
-.submit-btn
-{
-	width: 85%;
-	padding: 10px 30px;
-	cursor: pointer;
-	display: block;
-	margin: auto;
-	background: rgb(0, 157, 10);
-	border: 0;
-	outline: none;
-	border-radius: 30px;
-}
-.check-box
-{
-	margin: 20px 5px 0px -3px ;
-	padding: 0;
-}
-
-#login
-{
-	left:50px;
-}
-#login p {
-	margin-bottom: 33px;
-	text-align: left;
-	display: inline-block;
-
-}
-
-#login input
-{
-	color:rgb(0, 0, 0);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 15px;
-}
-#register
-{
-	left:450px;
-}
-#register input
-{
-	color:rgb(0, 0, 0);
-	font-size: 15px;
-}
 
 .loginbtn {
 	display: flex;
@@ -273,11 +152,8 @@ nav ul li button:hover
 	margin-bottom: 5rem;
 	
 }
-hr {
 
-	border-radius: 50%;
+a:link{
+	text-decoration: none;
 }
-
-
-
 

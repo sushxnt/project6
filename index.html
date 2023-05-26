@@ -16,50 +16,29 @@
 
 </head>
 <body>
-    <div class="full-page ">
+    <div class="full-page">
         <div class="navbar">
             <img class="logo" src="./logo.png" alt="logo" width="14%" height="14%">
             <nav>
                 <ul id='MenuItems'>
-                    <li><button class="contactbtn" onclick="document.get">HOME</button></li>
+                    <li><button class="contactbtn" onclick="document.getElementsByClassName(full-page)">HOME</button></li>
                     <li><button class="contactbtn" onclick="document.get">ABOUT</button></li>
                     <li><button class="contactbtn" onclick="document.get">CONTACT</button></li>
 
-                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">LOGIN/SIGN UP</button></li>
+                    <li><a href="./signin.html"><button class='loginbtn' >LOGIN/SIGN UP</button></a></li>
                 </ul>
             </nav>
         </div>
+        
         <div class="back-image">
           <img src="./img1.jpg" height="50%" width="50%">
           <img src="./img2.jpg" height="50%" width="50%">
 
         </div>
-        <div id='login-form'class='login-page'>
-            <div class="form-box">
-                <div class='button-box'>
-                    <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
-                    <button type='button' onclick='register()' class='toggle-btn'>Register</button>
-                </div>
-                <form id='login' class='input-group-login' action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <input type='text'class='input-field'placeholder='Email Id' required >
-		            <input type='password'class='input-field'placeholder='Enter Password' required="" id="id_password"> 
-		            <input type='checkbox'class='check-box'><p>Remember Password</p>
-		            <button type='submit'class='submit-btn'>Log in</button>
-		        </form>
-		<form id='register' class='input-group-register'>
-		<input type='text'class='input-field'placeholder='First Name' required>
-		<input type='text'class='input-field'placeholder='Last Name ' required>
-		<input type='email'class='input-field'placeholder='Email Id' required>
-		<input type='password'class='input-field'placeholder='Enter Password' required="" id=" id_password">
-		<input type='password'class='input-field'placeholder='Confirm Password'  required>
-		<input type='checkbox'class='check-box'><span><b>I agree to the terms and conditions.</b></span>
-        <button type='submit'class='submit-btn'>Register</button>
-
-	    </form>
-            </div>
+        
         </div>
     </div>
-    <hr style="color:white;">
+    <hr style="color:white;" width="100%">
     <div class="center-txt">
       <h2>You're in a good company</h2>
   <p>Hundreds of clubs and organisations use our platform to manage their sports facilities.
@@ -266,7 +245,7 @@
 
        
         
-<script src="index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 </html>
