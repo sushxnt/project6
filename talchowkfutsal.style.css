@@ -14,7 +14,7 @@
 {
 	height: 100%;
 	width: 100%;
-	background-image: url("");
+	background-image: url("futsal.jpg");
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -23,11 +23,15 @@
 {
 	display: flex;
     align-items: center;
-	padding: 20px 20px;
-    padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 10px;
+    /* padding-top: 10px; */
+	/* padding-bottom: 10px; */
 	background-color:rgb(28, 168, 168);
-	color: white;;
+	color: white;
+	/* position:sticky; */
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 nav
 {

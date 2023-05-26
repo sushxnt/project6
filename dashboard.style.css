@@ -7,13 +7,14 @@
 .navbar h1{
     font-size: 40px;
     color: white;
+	font-family: "Bebas Neue";
 	text-align: center;
 }
 .full-page
 {
 	height: 100%;
 	width: 100%;
-	background-image: url(".jpg");
+	background-image: url("/");
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -22,11 +23,15 @@
 {
 	display: flex;
     align-items: center;
-	padding: 20px 20px;
-    padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 10px;
+    /* padding-top: 10px; */
+	/* padding-bottom: 10px; */
 	background-color:rgb(28, 168, 168);
-	color: white;;
+	color: white;
+	/* position:sticky; */
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 nav
 {
@@ -98,19 +103,22 @@ option {
 
 a {
     color: black;
+    text-decoration: none;
     background-color: rgb(255, 255, 255); /* Green background color */
     border: none; /* No border */
     padding: 10px 20px; /* Padding around the text */
     font-weight: bolder;
-    text-align: center;
     display: inline-block; /* Display as a block element */
     font-size: 16px; /* Font size of the text */
-    border-radius: 7px; /* Rounded corners */
+    border-radius: 7px 7px; /* Rounded corners */
     cursor: pointer; /* Show cursor as a pointer */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    text-align: center;
 }
-a:link{
-    text-decoration: none;
-}
+
 a:hover:hover {
     background-color: rgb(28, 168, 168); /* Darker green on hover */
     text-decoration: none;
