@@ -64,11 +64,22 @@ nav ul li button:hover
 }
 .loginbtn {
 	display: flex;
-	border:solid 1px;
+	border:solid 2px;
 	padding: 10px 10px;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 10px;
 	font-size: medium;
+	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+	border-color: white;
+	color: rgb(235, 245, 245);
+	font-weight: bold;
+    margin-left: 2.94rem;
+}
+
+.loginbtn:hover{
+	background-color:white;
+	color: #060606;
+	font-weight: bold;
 }
 /*for Card Hover effect*/
 *,*:after,*:before{
@@ -172,7 +183,7 @@ a:link{
     text-decoration: none;
 }
 a:hover:hover {
-    background-color: rgb(50, 9, 201); /* Darker green on hover */
+    background-color: rgb(28, 168, 168); /* Darker green on hover */
 }
 a:active:active {
     background-color: rgb(255, 0, 0); /* Even darker green on click */
