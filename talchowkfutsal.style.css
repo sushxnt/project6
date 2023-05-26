@@ -1,37 +1,22 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-.navbar h1{
-    font-size: 40px;
-    color: white;
-	font-family: "Bebas Neue";
-	text-align: center;
-}
-.full-page
-{
+
+.full-page{
 	height: 100%;
 	width: 100%;
-	background-image: url("futsal.jpg");
-	background-position: center;
-	background-size: cover;
-	position: absolute;
 }
+
 .navbar
 {
 	display: flex;
     align-items: center;
 	padding: 10px 10px;
-    /* padding-top: 10px; */
-	/* padding-bottom: 10px; */
 	background-color:rgb(28, 168, 168);
 	color: white;
-	/* position:sticky; */
 	top: 0;
-	left: 0;
 	width: 100%;
+	overflow: hidden;
 }
 nav
 {
@@ -47,8 +32,9 @@ nav ul li
 {
     display: inline-block;
     margin-right: 50px;
-	font-family: "Comme";
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
 }
+
 nav ul li button
 {
     font-size: 20px;
@@ -57,11 +43,13 @@ nav ul li button
     border: none;
     background: transparent;
     cursor: pointer;
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
 }
 nav ul li button:hover
 {
     color: wheat;
 }
+
 .loginbtn {
 	display: flex;
 	border:solid 2px;
@@ -80,30 +68,23 @@ nav ul li button:hover
 	background-color:white;
 	color: #060606;
 	font-weight: bold;
+}  
+
+.logo{
+	text-align: center;
+	margin-left: 3rem;
+
 }
-/*for Card Hover effect*/
 *,*:after,*:before{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*
-body{
-	font-family: arial;
-	font-size: 16px;
-	margin: 0;
-	background: linear-gradient(to bottom right,#39f6ff , #e334fa);
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-*/
-.container{
+.carrot{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	
 }
 .column{
@@ -111,10 +92,7 @@ body{
 }
 
 .card{
-	border: 5px solid;
-	border-color: rgb(28, 168, 168);
-	position: relative;
-	background: #879087;
+
 	overflow: hidden;
 	border-radius: 10px;
 	
@@ -122,8 +100,8 @@ body{
 .card img{
 	vertical-align: top;
 	opacity: 0;
-	height: 60vh;
-    width:75vh;
+	width: 50px;
+	height: 320px;
 }
 .description{
 	position: absolute;
@@ -151,43 +129,32 @@ body{
 	color: rgb(255, 0, 0);
 }
 .description p{
-    color: #39f6ff;
+    color: rgb(28, 168, 168);
 }
-/*
-.description a{
-	display: inline-block;
-	padding: 5px 5px;
-	text-decoration: none;
-	background: #161616;
-	border-radius: 7px;
-	font-size: 15px;
-	color: wheat;
+
+
+.description a {
+	border:solid 1px;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: medium;
+	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+	border-color: white;
+	background-color: rgb(28, 168, 168);
+	font-weight: bold;
+    color: white;
 }
-.description a:hover{
-	text-decoration: none;
-}
-*/
-a {
-    background-color: #ffffff; /* Green background color */
-    color: rgb(0, 0, 0); /* Text color */
-    border: none; /* No border */
-    padding: 5px 10px; /* Padding around the text */
-    font-weight: bolder;
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Display as a block element */
-    font-size: 16px; /* Font size of the text */
-    border-radius: 7px; /* Rounded corners */
-    cursor: pointer; /* Show cursor as a pointer */
-}
-a:link{
+.description a:link{
     text-decoration: none;
+	color: white;
 }
-a:hover:hover {
-    background-color: rgb(28, 168, 168); /* Darker green on hover */
+.description a:hover {
+    background-color:white;
+	color: #060606;
+	font-weight: bold;
 }
-a:active:active {
-    background-color: rgb(255, 0, 0); /* Even darker green on click */
-}
+
 .card:hover .description{
 	opacity: 1;
 	transform: scale(1);
