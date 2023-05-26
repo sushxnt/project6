@@ -119,3 +119,13 @@ option {
 	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
 
 }
+a:link{
+	text-decoration: none;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover
+{
+    color: wheat;
+}
