@@ -34,33 +34,33 @@
         <div class="container2">
             <div class="signup-box">
                 <div class="sign-up">
-                    <form class="form1">
+                    <form class="form1" method="POST" action="./login_register.php">
                         <img class="mb-4" src="./logo.png" alt="" width="40%" height="40%">
                         <h1 class="h3 mb-3 fw-normal">Get started with your account.</h1>
                         <p>Find and book your venue all in under 60 seconds. Local sports facilities that suits you.</p>
                     
                         <div class="form-floating">
-                          <input type="text" class="form-control" id="floatingInput" placeholder="Michael" autocomplete="off" required>
+                          <input type="text" class="form-control" id="floatingInput" placeholder="Michael" name="fname" autocomplete="off" required>
                           <label for="floatingInput">First Name*</label>
                         </div>
                         <br>
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Jordan" autocomplete="off" required>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Jordan" name="lname" autocomplete="off" required>
                             <label for="floatingInput">Last Name*</label>
                           </div>
                           <br>
                           <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Pokhara Titans" autocomplete="off">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Pokhara Titans" name="tname" autocomplete="off">
                             <label for="floatingInput">Team Name</label>
                           </div>
                           <br>
                           <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@email.com" autocomplete="off" required>
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@email.com" name="email" autocomplete="off" required>
                             <label for="floatingInput">Email Address*</label>
                           </div>
                           <br>
                           <div class="form-floating">
-                            <input type="number" class="form-control" id="floatingInput" placeholder="98XXXXXXXX" autocomplete="off" required>
+                            <input type="number" class="form-control" id="floatingInput" placeholder="98XXXXXXXX" name="contact" autocomplete="off" required>
                             <label for="floatingInput">Contact Number*</label>
                           </div>
                           <br>
@@ -80,7 +80,7 @@
                           </label>
                         </div>
                         <p>Already a member? <a href="./signin.html">Sign In</a></p>
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit" name="signup">Sign Up</button>
                         <p class="mt-5 mb-3 text-muted">© 2017–2023</p>
                       </form>
                 </div>
