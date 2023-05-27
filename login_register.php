@@ -15,7 +15,11 @@ if(isset($_POST['signin']))
             $result_fetch=mysqli_fetch_assoc($result);
             if(password_verify($_POST['psw'],$result_fetch['password']))
             {
-                echo"right";
+                echo "
+                    <script>
+                        alert('Welcome -$result_fetch[fname]!');
+                        window.location.href='./dashboard.html';
+                    </script>";
             }
             else
             {
@@ -47,12 +51,12 @@ if(isset($_POST['signin']))
 #for register
 if(isset($_POST['signup']))
 {
-    $user_exist_query="SELECT * FROM `registration` WHERE `email`='$_POST[email]'";
+    $user_exist_query="SELECT * FROM `registration` WHERE `email`='$_POST[email]' OR `team_name`='$_POST[tname]'";
     $result=mysqli_query($con,$user_exist_query);
     
     if($result)
     {
-        if(mysqli_num_rows($result)>0) #it will be executed if email is already taken
+        if(mysqli_num_rows($result)>0) #it will be executed if email or team_name is already taken
         {
             #if any user has already taken email
             $result_fetch=mysqli_fetch_assoc($result);
@@ -65,10 +69,10 @@ if(isset($_POST['signup']))
                     </script>";
             }
             else{
-                #error for email already registered
+                #error for team_name already registered
                 echo "
                     <script>
-                        alert('$result_fetch[email]- E-mail laready registered');
+                        alert('$result_fetch[team_name]- Team namelaready registered');
                         window.location.href='signup.html';
                     </script>";
             }
@@ -83,7 +87,7 @@ if(isset($_POST['signup']))
                 echo "
                     <script>
                         alert('Registration Successful!');
-                        window.location.href='./dashboard.html';
+                        window.location.href='./signin.html';
                     </script>";
 
             }
