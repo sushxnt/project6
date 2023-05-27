@@ -128,11 +128,11 @@ input#name{
     background-color: white;
     font-size: 15px;
     color: black;
-    border: solid 2px rgb(28, 168, 168);
+    border: solid 1px black;
 }
 textarea{
     width: 100%;
-    border: solid 2px rgb(28, 168, 168);
+    border: solid 1px black;
     outline: none;
     padding: 10px;
     box-sizing: border-box;
@@ -182,8 +182,8 @@ tr td{
 	color: white;
 }
 .details a:hover {
-    background-color:white;
-	color: #060606;
+    background-color: black;
+	color: white;
 	font-weight: bold;
 }
 a:link{

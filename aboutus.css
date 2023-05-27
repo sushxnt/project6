@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Permanent+Marker&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -51,7 +51,6 @@ nav ul li button:hover
     color: wheat;
 }
 
-
 .loginbtn {
 	display: flex;
 	border:solid 2px;
@@ -63,13 +62,14 @@ nav ul li button:hover
 	border-color: white;
 	color: rgb(235, 245, 245);
 	font-weight: bold;
+    margin-left: 2.94rem;
 }
 
 .loginbtn:hover{
 	background-color:white;
 	color: #060606;
 	font-weight: bold;
-}
+}  
 
 .logo{
 	text-align: center;
@@ -79,115 +79,98 @@ nav ul li button:hover
 .section{
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
+    font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .container1{
     width: 60%;
     display: block;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 80px;
+    color: white;
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+}
+.container1 p{
+    text-align: justify;
+    margin-bottom: 5px;
 }
 .content-section{
     float: left;
     width: 80%;
-    margin-left: 10px;
-}
-body{
-    background:rgb(236, 235, 235);
+    margin-left: 40px;
 }
 
 .image-section{
     float: right;
     width: 70%;
     position: absolute;
-    right:50px;
+    right:40px;
+    padding-top: 65px;
     }          
-    .image-section img{
-        width: 75%;
-        height:auto;
-        padding-left: 100px;
-        float:right;
-    }  
-    .content-section .title{
-        text-transform: uppercase;
-        position: absolute;
-        left: 10px;
-        font-size:28px;
-    }
-    .content-section .content h3{
-        margin-top: 60px;
-        color: #5d5d5d;
-        font-size: 21px;
-        position: absolute;
-        left: 12px;
+.image-section img{
+    width: 75%;
+    height:auto;
+    padding-left: 100px;
+    float:right;
+    
+}  
+.button{
+    border:solid 1px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
+    background-color: rgb(28, 168, 168);
+    font-weight: bold;
+    color: white;
+}
+.button:hover{
+background-color:white;
+color: #060606;
+font-weight: bold;
+    
+}
+#check{
+    display: none;
+}
+.content1{
+    display: none;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    cursor: pointer; 
+    margin-top: 10px;
 
-    }
-    .content-section .content p{
-    margin-top: 100px;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 2;
-    position: absolute;
-    left: 12px;
-    z-index: 25;
-    letter-spacing: 0.3px;
-    }
-    .content-section .content .button{
-        position: absolute;
-        bottom: 190px;
-        left: 10px;
-    }
-    .content-section .content .button a{
-        background-color: #3d3d3d;
-        padding: 12px 10px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 25px;
-        letter-spacing: 1.5px;
-    }
-    .content-section .content .button a:hover{
-        background: #0bd4d4;
-        box-shadow: 0 0 5px #2ab6b6, 0 0 25px #2ab6b6, 0 0 50px #2ab6b6, 0 0 200px #2ab6b6 ;
-        
-    }
-    @media screen and (max-width:768px){
-        .container{
-            width:80%;
-            display: block;
-            margin: auto;
-            padding-top: 50px;
-        }
-    .content-section{
-        float: none;
-        width:100%;
-        display: block;
-        margin: auto;
-    }
-    .image-section{
-        float:right;
-        width:100%;
-    }
-    .image-section img{
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 25px ;
-    }
-    .content-section .title{
-        text-align: center;
-        font-size: 19px;
-    }
-    .content-section .content .button{
-        text-align: center;
-    }
-    .content-section .content .button a{
-        padding: 9px 30px;
-        
-    }
-    .content-section .social{
-    text-align: center;
-    } 
-    }
+}
+#check:checked ~ .content1{
+    display: block;
+}
+#check:checked ~ label{
+    visibility: hidden;
+}
+
+#check:checked ~ label:after{
+    content: 'Show Less'; 
+    display: flex;
+    visibility: visible;
+    border: solid 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgb(28, 168, 168);
+    font-weight: bold;
+    font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#check:checked~label:after:hover{
+    background-color:white;
+    color: #060606;
+    font-weight: bold; 
+}
 
     a:link{
         text-decoration: none;
