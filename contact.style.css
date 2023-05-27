@@ -80,10 +80,8 @@ nav ul li button:hover
 .details {
     width: 70%;
     margin: 25px auto;
-    color: rgb(28, 168, 168);
     font-weight: bold;
     flex: 1;
-    color: rgb(28, 168, 168);
     font-weight: bolder;
 	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
 
@@ -93,11 +91,13 @@ nav ul li button:hover
     background: white;
     display: flex;
     border-radius: 15px;
+    
 }
 .contact-left{
     flex-basis: 60%;
     padding: 20px 40px;
     border-radius: 15px;
+    color: black;
 }
 .contact-right{
     flex-basis: 50%;
@@ -115,12 +115,12 @@ nav ul li button:hover
 }
 .input-row .input-group{
     flex-basis: 45%;
+    
 }
 input{
     width: 100%;
     outline: none;
     padding-bottom: 5px;
-    
 }
 input#name{
     padding: 5px 10px ;
@@ -144,7 +144,7 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: rgb(28, 168, 168);
+    color: black;
     
 }
 
