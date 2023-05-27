@@ -70,5 +70,13 @@ nav ul li button:hover
 a:link{
     text-decoration: none;
 }
+.navbar a{
+    color: white;
+}
+.navbar a:hover
+{
+    color: wheat;
+}
+
 
 
