@@ -17,7 +17,7 @@ if(isset($_POST['signin']))
             {
                 echo "
                     <script>
-                        alert('Welcome -$result_fetch[fname]!');
+                        alert('Welcome! $result_fetch[email]');
                         window.location.href='./dashboard.html';
                     </script>";
             }
