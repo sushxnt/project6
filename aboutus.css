@@ -19,7 +19,6 @@
 	width: 100%;
 	overflow: hidden;
 }
-
 nav
 {
     flex: 1;
@@ -52,6 +51,7 @@ nav ul li button:hover
     color: wheat;
 }
 
+
 .loginbtn {
 	display: flex;
 	border:solid 2px;
@@ -63,18 +63,18 @@ nav ul li button:hover
 	border-color: white;
 	color: rgb(235, 245, 245);
 	font-weight: bold;
-    margin-left: 2.94rem;
 }
 
 .loginbtn:hover{
 	background-color:white;
 	color: #060606;
 	font-weight: bold;
-}  
+}
 
 .logo{
 	text-align: center;
 	margin-left: 3rem;
+
 }
 .section{
     width: 100%;
