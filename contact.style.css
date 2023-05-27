@@ -128,11 +128,11 @@ input#name{
     background-color: white;
     font-size: 15px;
     color: black;
-    border: solid 2px black;
+    border: solid 2px rgb(28, 168, 168);
 }
 textarea{
     width: 100%;
-    border: solid 2px black;
+    border: solid 2px rgb(28, 168, 168);
     outline: none;
     padding: 10px;
     box-sizing: border-box;
