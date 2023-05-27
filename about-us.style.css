@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Permanent+Marker&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+.full-page{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar
+{
+	display: flex;
+    align-items: center;
+	padding: 10px 10px;
+	background-color:rgb(28, 168, 168);
+	color: white;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
+}
+
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+	font-family: "Ubuntu",sans-serif,Verdana, Geneva, Tahoma;
+}
+nav ul li button:hover
+{
+    color: wheat;
+}
+
+.loginbtn {
+	display: flex;
+	border:solid 2px;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: medium;
+	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+	border-color: white;
+	color: rgb(235, 245, 245);
+	font-weight: bold;
+    margin-left: 2.94rem;
+}
+
+.loginbtn:hover{
+	background-color:white;
+	color: #060606;
+	font-weight: bold;
+}  
+
+.logo{
+	text-align: center;
+	margin-left: 3rem;
+}
+
+.details {
+    width: 80%;
+    margin: 25px auto;
+    color: rgb(28, 168, 168);
+    font-weight: bold;
+    flex: 1;
+    color: rgb(28, 168, 168);
+    font-weight: bolder;
+	font-family:"Ubuntu",Verdana, Geneva, Tahoma, sans-serif;
+}
+.details p{
+    font-size: 15px;
+}
+.details img{
+    width: 400px;
+    height: 350px;
+    display: block;
+    margin-top: 25px ;
+}
+
+
+a:link{
+	text-decoration: none;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover
+{
+    color: wheat;
+}

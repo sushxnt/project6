@@ -90,7 +90,7 @@ nav ul li button:hover
 }
 
 .contact-box{
-    background: #ccc0c0;
+    background: white;
     display: flex;
     border-radius: 15px;
 }
@@ -118,7 +118,6 @@ nav ul li button:hover
 }
 input{
     width: 100%;
-    border: none;
     outline: none;
     padding-bottom: 5px;
     
@@ -126,18 +125,19 @@ input{
 input#name{
     padding: 5px 10px ;
     border-radius: 7px;
-    background-color: aliceblue;
+    background-color: white;
     font-size: 15px;
     color: black;
+    border: solid 2px black;
 }
 textarea{
     width: 100%;
-    border: 1px solid #ccc;
+    border: solid 2px black;
     outline: none;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 7px;
-    background-color: aliceblue;
+    background-color: white;
     font-size: 15px;
     color: black;
 }
