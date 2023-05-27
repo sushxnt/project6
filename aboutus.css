@@ -98,35 +98,48 @@ body{
 
 .image-section{
     float: right;
-    width: 80%;
+    width: 70%;
+    position: absolute;
+    right:50px;
     }          
     .image-section img{
-        width: 80%;
+        width: 75%;
         height:auto;
         padding-left: 100px;
         float:right;
     }  
     .content-section .title{
         text-transform: uppercase;
+        position: absolute;
+        left: 10px;
         font-size:28px;
     }
     .content-section .content h3{
-        margin-top: 20px;
+        margin-top: 60px;
         color: #5d5d5d;
         font-size: 21px;
+        position: absolute;
+        left: 12px;
+
     }
     .content-section .content p{
-    margin-top: 10px;
+    margin-top: 100px;
     font-family: sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
+    position: absolute;
+    left: 12px;
+    z-index: 25;
+    letter-spacing: 0.3px;
     }
     .content-section .content .button{
-        margin-top: 30px;
+        position: absolute;
+        bottom: 190px;
+        left: 10px;
     }
     .content-section .content .button a{
         background-color: #3d3d3d;
-        padding: 12px 40px;
+        padding: 12px 10px;
         text-decoration: none;
         color: #fff;
         font-size: 25px;
