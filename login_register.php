@@ -1,6 +1,7 @@
 <?php
 
 require('connection.php');
+session_start();
 
 #for login
 if(isset($_POST['signin']))
@@ -15,11 +16,9 @@ if(isset($_POST['signin']))
             $result_fetch=mysqli_fetch_assoc($result);
             if(password_verify($_POST['psw'],$result_fetch['password']))
             {
-                echo "
-                    <script>
-                        alert('Welcome! $result_fetch[email]');
-                        window.location.href='./dashboard.html';
-                    </script>";
+                $_SESSION['logged_in']=true;
+                $_SESSION['email']=$result_fetch['email'];
+                header("location: dashboard.html");
             }
             else
             {
